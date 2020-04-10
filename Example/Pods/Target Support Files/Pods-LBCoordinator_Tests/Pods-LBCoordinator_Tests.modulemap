@@ -1,0 +1,6 @@
+framework module Pods_LBCoordinator_Tests {
+  umbrella header "Pods-LBCoordinator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

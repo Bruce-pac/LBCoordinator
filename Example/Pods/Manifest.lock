@@ -1,0 +1,16 @@
+PODS:
+  - LBCoordinator (0.1.0)
+
+DEPENDENCIES:
+  - LBCoordinator (from `../`)
+
+EXTERNAL SOURCES:
+  LBCoordinator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LBCoordinator: 022457f46029432f0d482e5609c851b9c5fb3ac3
+
+PODFILE CHECKSUM: 5f50f7c037922bb485bf9144833bd9b6ac171b52
+
+COCOAPODS: 1.8.4
