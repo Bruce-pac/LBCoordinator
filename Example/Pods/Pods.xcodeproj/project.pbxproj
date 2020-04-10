@@ -7,26 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01AAD02DBB39D5334BF0A0862EC91DEE /* LBNavigationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D347FD91C5B6A5CEFEF8F9C18E765E5 /* LBNavigationCoordinator.m */; };
-		06C10DFFC92FFAC40DE2938D0F8DA0D1 /* LBCoordinating.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A05A53C1F8D4C9285363DDBAEC64814 /* LBCoordinating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04650634C19F056206E2877D2544E7AD /* LBCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6602B81B21160BFFB8E3002E6F34A2 /* LBCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14F614AC3EC0DEFC55AFEF3424E59A6B /* LBCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B73985D871C119A880CA64798178EFBD /* LBCoordinator-dummy.m */; };
 		1C26249559244EADA2F45694417DC24C /* Pods-LBCoordinator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC491B3AE316F52B67853650971D70BF /* Pods-LBCoordinator_Tests-dummy.m */; };
-		282FBA81EEF0474F0A8434FC79842420 /* UIResponder+LBCoordinating.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C94962D2C4EDBBEA225209E44B781A /* UIResponder+LBCoordinating.m */; };
-		2DC5AACCE8F8C3DA118ACC3B5C2198DB /* UIViewController+LBCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AFAC86054E2387F0DF54B238DE7434 /* UIViewController+LBCoordinator.m */; };
-		3C36F16F1962632A3504BA3A6D37087D /* LBNavigationCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 139DC1B8F6670E6C1769179DE36E0D99 /* LBNavigationCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48103334627F248AD2159D1F553EE197 /* LBGenericCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB9913E508491D1624F964759144AB2 /* LBGenericCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D291232F38F7B67C21E996B6CCD60DA /* UIResponder+LBCoordinating.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8B138DC226461333C0B413B09E256F /* UIResponder+LBCoordinating.m */; };
+		25B31113EA46EF654E3E899899FC95A8 /* LBGenericCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 856DF7D20ABCDC4DEE3445CB0B31AEBF /* LBGenericCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47C5FACA69B0389655B04C9EC38124D3 /* LBGenericCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9538539A9A85E887D61C9C563D5B4281 /* LBGenericCoordinator.m */; };
 		5409D34C593EEB90CDFF032BCD5AA2C0 /* Pods-LBCoordinator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C61905DEB3A00128ED30B1E44C6270B3 /* Pods-LBCoordinator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5903321860497623317BB9909462AAFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5C281C44AD98AD22C8AF9452E4081276 /* LBBaseCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA10212766EBB22E50623529141ECF8 /* LBBaseCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6366FD8A7AD94800C6AB2399363FAC80 /* LBCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7B9D29709065F98334182BC9512171 /* LBCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		704AC026593525667F0DE967C4023CA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		724A315385D6C2FD52C2F45318012309 /* LBCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE82C7AB3E18A5517FD304C0B6C4D33 /* LBCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B065F30EE28F9A36CEA02F259041140 /* LBCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC36E68B9A1A77208D8A330624B01267 /* LBCoordinator-dummy.m */; };
+		80BD64B7B55468BEA6CBA8ABA5D57245 /* LBBaseCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78A60EC956961B000AF38F8A2B6A51 /* LBBaseCoordinator.m */; };
 		8A606E1B4B322E998F1F88BDAF8EBF99 /* Pods-LBCoordinator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E8D27F58D69D3A5DF96A7336D5FF8D /* Pods-LBCoordinator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A91320DE75766A8C79E6662FAB0D945 /* LBBaseCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 12DF6734965AC5380B6C2A078BFF8689 /* LBBaseCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E371674B690297A06D2DDA31AE50C6F /* LBGenericCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C69E43359C1BAD657CA11486771907B /* LBGenericCoordinator.m */; };
-		94A8A1C9CE6AFBFB19968643DB0335C7 /* UIResponder+LBCoordinating.h in Headers */ = {isa = PBXBuildFile; fileRef = B490501CB0ED47C274B153629CFF2C3F /* UIResponder+LBCoordinating.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B533024A6D810D4EB897910DFB97619F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8C0308FA90C985D085F10AD0C846FF85 /* LBNavigationCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F32AC8BB2E34C62B06A7CC8426B0399 /* LBNavigationCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901F865D88F859A930D3EE331100A8FF /* LBCoordinating.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAB47975F2F16B42813CB22CEB19CA7 /* LBCoordinating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91C053B953DF18A9C4787F146F35381C /* UIViewController+LBCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A944BDFC722185BF199662A58F8283 /* UIViewController+LBCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF3737D06FE8797A8FFDDDEFBC49308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CE17745D38F4429F2F4BF6BD33FD3032 /* UIViewController+LBCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = E9894D32BAFCA75CA5C26DF836860164 /* UIViewController+LBCoordinator.m */; };
 		DB4670D23F56510AA07BAAC36FD2A25D /* Pods-LBCoordinator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E85051FEE08F2AA59BF0A1BE8B0850 /* Pods-LBCoordinator_Example-dummy.m */; };
-		ED94350C535C6BEBE2F9950E8943D2A3 /* UIViewController+LBCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CFD13E9A233E7A80079B8707FBFB76 /* UIViewController+LBCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1034A6AEBD2444ECF3EA8D94E456139 /* LBBaseCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A42C11D011FCFF05A7DB79F3768E71 /* LBBaseCoordinator.m */; };
+		F61438D1A657416204C6B0590BD9A992 /* UIResponder+LBCoordinating.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9E03CD38A850FE0CDD1AD3F3E9DAA9 /* UIResponder+LBCoordinating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA083E49EBA6DA398157D995D5274A0 /* LBNavigationCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E12974B4C25FC495F5215FD918737 /* LBNavigationCoordinator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,55 +49,56 @@
 
 /* Begin PBXFileReference section */
 		01D10B910E6CC8B3E4222A66AB649BEC /* Pods-LBCoordinator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBCoordinator_Tests-Info.plist"; sourceTree = "<group>"; };
-		12CFD13E9A233E7A80079B8707FBFB76 /* UIViewController+LBCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LBCoordinator.h"; path = "LBCoordinator/Classes/UIViewController+LBCoordinator.h"; sourceTree = "<group>"; };
-		12DF6734965AC5380B6C2A078BFF8689 /* LBBaseCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBBaseCoordinator.h; path = LBCoordinator/Classes/LBBaseCoordinator.h; sourceTree = "<group>"; };
-		139DC1B8F6670E6C1769179DE36E0D99 /* LBNavigationCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBNavigationCoordinator.h; path = LBCoordinator/Classes/LBNavigationCoordinator.h; sourceTree = "<group>"; };
-		2252075D566826E88086B864FE4C43CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2A05A53C1F8D4C9285363DDBAEC64814 /* LBCoordinating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBCoordinating.h; path = LBCoordinator/Classes/LBCoordinating.h; sourceTree = "<group>"; };
-		2CE82C7AB3E18A5517FD304C0B6C4D33 /* LBCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBCoordinator-umbrella.h"; sourceTree = "<group>"; };
+		05DCC3EB910745225C9BA49C146F38E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		07D50ED6D31F203E4B1CDD7A5AFF3D00 /* LBCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBCoordinator-prefix.pch"; sourceTree = "<group>"; };
+		23A944BDFC722185BF199662A58F8283 /* UIViewController+LBCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LBCoordinator.h"; path = "LBCoordinator/Classes/UIViewController+LBCoordinator.h"; sourceTree = "<group>"; };
 		2DF8C1F7D6AE6179065EC3AE2C2C2E86 /* Pods-LBCoordinator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBCoordinator_Example-Info.plist"; sourceTree = "<group>"; };
+		2F32AC8BB2E34C62B06A7CC8426B0399 /* LBNavigationCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBNavigationCoordinator.h; path = LBCoordinator/Classes/LBNavigationCoordinator.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4059CB28798826DCA1EB4015BB9FCCD0 /* LBCoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LBCoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		41937583FB2173FA296F80BD89199836 /* Pods-LBCoordinator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBCoordinator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4D347FD91C5B6A5CEFEF8F9C18E765E5 /* LBNavigationCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBNavigationCoordinator.m; path = LBCoordinator/Classes/LBNavigationCoordinator.m; sourceTree = "<group>"; };
-		59C94962D2C4EDBBEA225209E44B781A /* UIResponder+LBCoordinating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+LBCoordinating.m"; path = "LBCoordinator/Classes/UIResponder+LBCoordinating.m"; sourceTree = "<group>"; };
-		5AB9913E508491D1624F964759144AB2 /* LBGenericCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBGenericCoordinator.h; path = LBCoordinator/Classes/LBGenericCoordinator.h; sourceTree = "<group>"; };
-		5DA578197978AA5D287951179D4727C0 /* LBCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBCoordinator-prefix.pch"; sourceTree = "<group>"; };
+		5F103299525E7EEA2A7BC839474BC996 /* LBCoordinator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LBCoordinator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6B8E0FF7098E0F09C84248165F7C9256 /* Pods-LBCoordinator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LBCoordinator_Tests.modulemap"; sourceTree = "<group>"; };
-		6C69E43359C1BAD657CA11486771907B /* LBGenericCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBGenericCoordinator.m; path = LBCoordinator/Classes/LBGenericCoordinator.m; sourceTree = "<group>"; };
+		6D6602B81B21160BFFB8E3002E6F34A2 /* LBCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBCoordinator.h; path = LBCoordinator/Classes/LBCoordinator.h; sourceTree = "<group>"; };
+		70456A6B23654E41A80A28CABC0E73F4 /* LBCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBCoordinator-Info.plist"; sourceTree = "<group>"; };
 		71E85051FEE08F2AA59BF0A1BE8B0850 /* Pods-LBCoordinator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBCoordinator_Example-dummy.m"; sourceTree = "<group>"; };
 		745496292D0CB829794C27841229C165 /* Pods-LBCoordinator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LBCoordinator_Example.modulemap"; sourceTree = "<group>"; };
-		76AFAC86054E2387F0DF54B238DE7434 /* UIViewController+LBCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LBCoordinator.m"; path = "LBCoordinator/Classes/UIViewController+LBCoordinator.m"; sourceTree = "<group>"; };
+		7A8B138DC226461333C0B413B09E256F /* UIResponder+LBCoordinating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+LBCoordinating.m"; path = "LBCoordinator/Classes/UIResponder+LBCoordinating.m"; sourceTree = "<group>"; };
 		81ABE4CB66A0B630619590F70BDF8BBE /* LBCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBCoordinator.framework; path = LBCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		856DF7D20ABCDC4DEE3445CB0B31AEBF /* LBGenericCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBGenericCoordinator.h; path = LBCoordinator/Classes/LBGenericCoordinator.h; sourceTree = "<group>"; };
 		8882634C1A3875E5154FCAE64CE0D6F8 /* Pods-LBCoordinator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBCoordinator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		903BFA8DC03B54A4D299E0004BF0455A /* LBCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBCoordinator.modulemap; sourceTree = "<group>"; };
+		890E12974B4C25FC495F5215FD918737 /* LBNavigationCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBNavigationCoordinator.m; path = LBCoordinator/Classes/LBNavigationCoordinator.m; sourceTree = "<group>"; };
+		9538539A9A85E887D61C9C563D5B4281 /* LBGenericCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBGenericCoordinator.m; path = LBCoordinator/Classes/LBGenericCoordinator.m; sourceTree = "<group>"; };
 		99D269CB8F55C72FBAC21F2CC36B0E9B /* Pods-LBCoordinator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBCoordinator_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3B1296757E7346629C2C6E0BACB6237 /* LBCoordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBCoordinator-Info.plist"; sourceTree = "<group>"; };
-		AF483683DB06E23DD4CDC1F9C91EC9C8 /* LBCoordinator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBCoordinator.xcconfig; sourceTree = "<group>"; };
-		B490501CB0ED47C274B153629CFF2C3F /* UIResponder+LBCoordinating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+LBCoordinating.h"; path = "LBCoordinator/Classes/UIResponder+LBCoordinating.h"; sourceTree = "<group>"; };
+		9DAB47975F2F16B42813CB22CEB19CA7 /* LBCoordinating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBCoordinating.h; path = LBCoordinator/Classes/LBCoordinating.h; sourceTree = "<group>"; };
+		AC290B9B93EE2FEB8385D7DC99EC5B50 /* LBCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBCoordinator.modulemap; sourceTree = "<group>"; };
 		B4E8D27F58D69D3A5DF96A7336D5FF8D /* Pods-LBCoordinator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBCoordinator_Example-umbrella.h"; sourceTree = "<group>"; };
-		B6E9D13381A1E416B0A37FF8FCD1928B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B73985D871C119A880CA64798178EFBD /* LBCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBCoordinator-dummy.m"; sourceTree = "<group>"; };
+		BF7B9D29709065F98334182BC9512171 /* LBCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBCoordinator-umbrella.h"; sourceTree = "<group>"; };
 		C2C70EFCBCF21C599E2BC9CF553446B9 /* Pods-LBCoordinator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBCoordinator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C61905DEB3A00128ED30B1E44C6270B3 /* Pods-LBCoordinator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LBCoordinator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D06796F041041CEC480A5CC87B52840D /* Pods-LBCoordinator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBCoordinator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D51128FFF9AB9A83CD751E171DFEB1F7 /* Pods_LBCoordinator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBCoordinator_Example.framework; path = "Pods-LBCoordinator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7A42C11D011FCFF05A7DB79F3768E71 /* LBBaseCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBBaseCoordinator.m; path = LBCoordinator/Classes/LBBaseCoordinator.m; sourceTree = "<group>"; };
 		DEF49F763934777824B0827BD9CB5374 /* Pods-LBCoordinator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBCoordinator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E013EC2402471388DACEC787A35853DD /* Pods-LBCoordinator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBCoordinator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0F4BB7839E6BD778780E9F5FD490B49 /* LBCoordinator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBCoordinator.xcconfig; sourceTree = "<group>"; };
 		E305BFBEBC8720570FA85F0FADD95A75 /* Pods_LBCoordinator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LBCoordinator_Tests.framework; path = "Pods-LBCoordinator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E500FE75BCEC9F3D90F0A09191995F /* Pods-LBCoordinator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBCoordinator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EC36E68B9A1A77208D8A330624B01267 /* LBCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBCoordinator-dummy.m"; sourceTree = "<group>"; };
+		E9894D32BAFCA75CA5C26DF836860164 /* UIViewController+LBCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LBCoordinator.m"; path = "LBCoordinator/Classes/UIViewController+LBCoordinator.m"; sourceTree = "<group>"; };
+		EA78A60EC956961B000AF38F8A2B6A51 /* LBBaseCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBBaseCoordinator.m; path = LBCoordinator/Classes/LBBaseCoordinator.m; sourceTree = "<group>"; };
+		ED9E03CD38A850FE0CDD1AD3F3E9DAA9 /* UIResponder+LBCoordinating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+LBCoordinating.h"; path = "LBCoordinator/Classes/UIResponder+LBCoordinating.h"; sourceTree = "<group>"; };
 		EE5B5247491DBBB508506780EABEBC8F /* Pods-LBCoordinator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBCoordinator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F20FE2D5759DB2E4688B1486130BC8C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FBA10212766EBB22E50623529141ECF8 /* LBBaseCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBBaseCoordinator.h; path = LBCoordinator/Classes/LBBaseCoordinator.h; sourceTree = "<group>"; };
 		FC491B3AE316F52B67853650971D70BF /* Pods-LBCoordinator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBCoordinator_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5696434E9F273081868FDB3DAA0932B8 /* Frameworks */ = {
+		0A483D33BFAEB3D9344F808D327E7C9E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B533024A6D810D4EB897910DFB97619F /* Foundation.framework in Frameworks */,
+				5903321860497623317BB9909462AAFB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,41 +121,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02871F655167764A7EAE91C0751F50E8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				903BFA8DC03B54A4D299E0004BF0455A /* LBCoordinator.modulemap */,
-				AF483683DB06E23DD4CDC1F9C91EC9C8 /* LBCoordinator.xcconfig */,
-				EC36E68B9A1A77208D8A330624B01267 /* LBCoordinator-dummy.m */,
-				A3B1296757E7346629C2C6E0BACB6237 /* LBCoordinator-Info.plist */,
-				5DA578197978AA5D287951179D4727C0 /* LBCoordinator-prefix.pch */,
-				2CE82C7AB3E18A5517FD304C0B6C4D33 /* LBCoordinator-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LBCoordinator";
-			sourceTree = "<group>";
-		};
-		102F8D4A991BD38B88D3374A1729E95A /* LBCoordinator */ = {
-			isa = PBXGroup;
-			children = (
-				12DF6734965AC5380B6C2A078BFF8689 /* LBBaseCoordinator.h */,
-				D7A42C11D011FCFF05A7DB79F3768E71 /* LBBaseCoordinator.m */,
-				2A05A53C1F8D4C9285363DDBAEC64814 /* LBCoordinating.h */,
-				5AB9913E508491D1624F964759144AB2 /* LBGenericCoordinator.h */,
-				6C69E43359C1BAD657CA11486771907B /* LBGenericCoordinator.m */,
-				139DC1B8F6670E6C1769179DE36E0D99 /* LBNavigationCoordinator.h */,
-				4D347FD91C5B6A5CEFEF8F9C18E765E5 /* LBNavigationCoordinator.m */,
-				B490501CB0ED47C274B153629CFF2C3F /* UIResponder+LBCoordinating.h */,
-				59C94962D2C4EDBBEA225209E44B781A /* UIResponder+LBCoordinating.m */,
-				12CFD13E9A233E7A80079B8707FBFB76 /* UIViewController+LBCoordinator.h */,
-				76AFAC86054E2387F0DF54B238DE7434 /* UIViewController+LBCoordinator.m */,
-				9A9C0FD9979E31C328E68A9543B5796B /* Pod */,
-				02871F655167764A7EAE91C0751F50E8 /* Support Files */,
-			);
-			name = LBCoordinator;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		4E5AC7023C08436C8B51BD8F4A4C4BAA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +129,28 @@
 				E305BFBEBC8720570FA85F0FADD95A75 /* Pods_LBCoordinator_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7287888212AABFA7871C6F8408E02BB3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D474701B7E5864B00454801FD8BE4AA /* LBCoordinator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7A07ED73BC3212F1A98388B9BAAC043A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC290B9B93EE2FEB8385D7DC99EC5B50 /* LBCoordinator.modulemap */,
+				E0F4BB7839E6BD778780E9F5FD490B49 /* LBCoordinator.xcconfig */,
+				B73985D871C119A880CA64798178EFBD /* LBCoordinator-dummy.m */,
+				70456A6B23654E41A80A28CABC0E73F4 /* LBCoordinator-Info.plist */,
+				07D50ED6D31F203E4B1CDD7A5AFF3D00 /* LBCoordinator-prefix.pch */,
+				BF7B9D29709065F98334182BC9512171 /* LBCoordinator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LBCoordinator";
 			sourceTree = "<group>";
 		};
 		91925B7C7EBD4165744F1010FF58D583 /* Targets Support Files */ = {
@@ -173,22 +162,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		971D34EE31F0D92D01856091C7F2F743 /* Development Pods */ = {
+		9D474701B7E5864B00454801FD8BE4AA /* LBCoordinator */ = {
 			isa = PBXGroup;
 			children = (
-				102F8D4A991BD38B88D3374A1729E95A /* LBCoordinator */,
+				FBA10212766EBB22E50623529141ECF8 /* LBBaseCoordinator.h */,
+				EA78A60EC956961B000AF38F8A2B6A51 /* LBBaseCoordinator.m */,
+				9DAB47975F2F16B42813CB22CEB19CA7 /* LBCoordinating.h */,
+				6D6602B81B21160BFFB8E3002E6F34A2 /* LBCoordinator.h */,
+				856DF7D20ABCDC4DEE3445CB0B31AEBF /* LBGenericCoordinator.h */,
+				9538539A9A85E887D61C9C563D5B4281 /* LBGenericCoordinator.m */,
+				2F32AC8BB2E34C62B06A7CC8426B0399 /* LBNavigationCoordinator.h */,
+				890E12974B4C25FC495F5215FD918737 /* LBNavigationCoordinator.m */,
+				ED9E03CD38A850FE0CDD1AD3F3E9DAA9 /* UIResponder+LBCoordinating.h */,
+				7A8B138DC226461333C0B413B09E256F /* UIResponder+LBCoordinating.m */,
+				23A944BDFC722185BF199662A58F8283 /* UIViewController+LBCoordinator.h */,
+				E9894D32BAFCA75CA5C26DF836860164 /* UIViewController+LBCoordinator.m */,
+				D89931DF8ECE79C8F1BAAC4511059C88 /* Pod */,
+				7A07ED73BC3212F1A98388B9BAAC043A /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9A9C0FD9979E31C328E68A9543B5796B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4059CB28798826DCA1EB4015BB9FCCD0 /* LBCoordinator.podspec */,
-				2252075D566826E88086B864FE4C43CD /* LICENSE */,
-				B6E9D13381A1E416B0A37FF8FCD1928B /* README.md */,
-			);
-			name = Pod;
+			name = LBCoordinator;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B507BEC95E40F6ACD5A4E798B364404B /* Pods-LBCoordinator_Example */ = {
@@ -236,7 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				971D34EE31F0D92D01856091C7F2F743 /* Development Pods */,
+				7287888212AABFA7871C6F8408E02BB3 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4E5AC7023C08436C8B51BD8F4A4C4BAA /* Products */,
 				91925B7C7EBD4165744F1010FF58D583 /* Targets Support Files */,
@@ -251,6 +244,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D89931DF8ECE79C8F1BAAC4511059C88 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5F103299525E7EEA2A7BC839474BC996 /* LBCoordinator.podspec */,
+				05DCC3EB910745225C9BA49C146F38E8 /* LICENSE */,
+				F20FE2D5759DB2E4688B1486130BC8C8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -262,17 +265,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9123F9B557D2CCFD1BE77BAF2C918F1F /* Headers */ = {
+		99F70B12EADFCE34D0FF504110D5BD21 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A91320DE75766A8C79E6662FAB0D945 /* LBBaseCoordinator.h in Headers */,
-				06C10DFFC92FFAC40DE2938D0F8DA0D1 /* LBCoordinating.h in Headers */,
-				724A315385D6C2FD52C2F45318012309 /* LBCoordinator-umbrella.h in Headers */,
-				48103334627F248AD2159D1F553EE197 /* LBGenericCoordinator.h in Headers */,
-				3C36F16F1962632A3504BA3A6D37087D /* LBNavigationCoordinator.h in Headers */,
-				94A8A1C9CE6AFBFB19968643DB0335C7 /* UIResponder+LBCoordinating.h in Headers */,
-				ED94350C535C6BEBE2F9950E8943D2A3 /* UIViewController+LBCoordinator.h in Headers */,
+				5C281C44AD98AD22C8AF9452E4081276 /* LBBaseCoordinator.h in Headers */,
+				901F865D88F859A930D3EE331100A8FF /* LBCoordinating.h in Headers */,
+				6366FD8A7AD94800C6AB2399363FAC80 /* LBCoordinator-umbrella.h in Headers */,
+				04650634C19F056206E2877D2544E7AD /* LBCoordinator.h in Headers */,
+				25B31113EA46EF654E3E899899FC95A8 /* LBGenericCoordinator.h in Headers */,
+				8C0308FA90C985D085F10AD0C846FF85 /* LBNavigationCoordinator.h in Headers */,
+				F61438D1A657416204C6B0590BD9A992 /* UIResponder+LBCoordinating.h in Headers */,
+				91C053B953DF18A9C4787F146F35381C /* UIViewController+LBCoordinator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,12 +312,12 @@
 		};
 		6431C8C70EBCB92354839F3D707550B8 /* LBCoordinator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 116E2F3CE631DDBF54E1BBB42BAAFC36 /* Build configuration list for PBXNativeTarget "LBCoordinator" */;
+			buildConfigurationList = 3646C3C54EE76D173EC0AB5F24D9F11B /* Build configuration list for PBXNativeTarget "LBCoordinator" */;
 			buildPhases = (
-				9123F9B557D2CCFD1BE77BAF2C918F1F /* Headers */,
-				5A6AD157354AAED966334E90D2DE10BC /* Sources */,
-				5696434E9F273081868FDB3DAA0932B8 /* Frameworks */,
-				CE7E665C8EB2ED05557ACD96E979D764 /* Resources */,
+				99F70B12EADFCE34D0FF504110D5BD21 /* Headers */,
+				7DCD5457DF6E4BA5CE441ED70E98BA29 /* Sources */,
+				0A483D33BFAEB3D9344F808D327E7C9E /* Frameworks */,
+				4281B91EC2C05B8B2015FF993472B8F2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -373,6 +377,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4281B91EC2C05B8B2015FF993472B8F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F9A6D331E91E60ABDE212CD98053E30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,13 +392,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C7B2547BBDD4E06B51B03FBD4BDFC621 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE7E665C8EB2ED05557ACD96E979D764 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,16 +409,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A6AD157354AAED966334E90D2DE10BC /* Sources */ = {
+		7DCD5457DF6E4BA5CE441ED70E98BA29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1034A6AEBD2444ECF3EA8D94E456139 /* LBBaseCoordinator.m in Sources */,
-				7B065F30EE28F9A36CEA02F259041140 /* LBCoordinator-dummy.m in Sources */,
-				8E371674B690297A06D2DDA31AE50C6F /* LBGenericCoordinator.m in Sources */,
-				01AAD02DBB39D5334BF0A0862EC91DEE /* LBNavigationCoordinator.m in Sources */,
-				282FBA81EEF0474F0A8434FC79842420 /* UIResponder+LBCoordinating.m in Sources */,
-				2DC5AACCE8F8C3DA118ACC3B5C2198DB /* UIViewController+LBCoordinator.m in Sources */,
+				80BD64B7B55468BEA6CBA8ABA5D57245 /* LBBaseCoordinator.m in Sources */,
+				14F614AC3EC0DEFC55AFEF3424E59A6B /* LBCoordinator-dummy.m in Sources */,
+				47C5FACA69B0389655B04C9EC38124D3 /* LBGenericCoordinator.m in Sources */,
+				FEA083E49EBA6DA398157D995D5274A0 /* LBNavigationCoordinator.m in Sources */,
+				1D291232F38F7B67C21E996B6CCD60DA /* UIResponder+LBCoordinating.m in Sources */,
+				CE17745D38F4429F2F4BF6BD33FD3032 /* UIViewController+LBCoordinator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,38 +480,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3DD3CFF8919D54BD04C9610DC4A05E11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF483683DB06E23DD4CDC1F9C91EC9C8 /* LBCoordinator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LBCoordinator/LBCoordinator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LBCoordinator/LBCoordinator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LBCoordinator/LBCoordinator.modulemap";
-				PRODUCT_MODULE_NAME = LBCoordinator;
-				PRODUCT_NAME = LBCoordinator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -700,6 +672,37 @@
 			};
 			name = Debug;
 		};
+		837B3B3D302E21433D5B2527179F9346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F4BB7839E6BD778780E9F5FD490B49 /* LBCoordinator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBCoordinator/LBCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBCoordinator/LBCoordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LBCoordinator/LBCoordinator.modulemap";
+				PRODUCT_MODULE_NAME = LBCoordinator;
+				PRODUCT_NAME = LBCoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B0DB0F7A015F9F95355D299E2F94246D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E5E500FE75BCEC9F3D90F0A09191995F /* Pods-LBCoordinator_Example.release.xcconfig */;
@@ -734,9 +737,9 @@
 			};
 			name = Release;
 		};
-		FE7B57EFB8B208F629F277173C1234DF /* Debug */ = {
+		D5F39E608A5F57559212B264C204A538 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF483683DB06E23DD4CDC1F9C91EC9C8 /* LBCoordinator.xcconfig */;
+			baseConfigurationReference = E0F4BB7839E6BD778780E9F5FD490B49 /* LBCoordinator.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -760,10 +763,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -777,11 +781,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		116E2F3CE631DDBF54E1BBB42BAAFC36 /* Build configuration list for PBXNativeTarget "LBCoordinator" */ = {
+		3646C3C54EE76D173EC0AB5F24D9F11B /* Build configuration list for PBXNativeTarget "LBCoordinator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE7B57EFB8B208F629F277173C1234DF /* Debug */,
-				3DD3CFF8919D54BD04C9610DC4A05E11 /* Release */,
+				837B3B3D302E21433D5B2527179F9346 /* Debug */,
+				D5F39E608A5F57559212B264C204A538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

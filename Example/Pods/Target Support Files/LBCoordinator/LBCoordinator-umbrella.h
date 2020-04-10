@@ -12,6 +12,7 @@
 
 #import "LBBaseCoordinator.h"
 #import "LBCoordinating.h"
+#import "LBCoordinator.h"
 #import "LBGenericCoordinator.h"
 #import "LBNavigationCoordinator.h"
 #import "UIResponder+LBCoordinating.h"
