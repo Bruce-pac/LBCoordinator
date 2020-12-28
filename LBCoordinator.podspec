@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Bruce-pac' => 'Bruce_pac312@foxmail.com' }
   s.source           = { :git => 'https://github.com/Bruce-pac/LBCoordinator.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'LBCoordinator/Classes/**/*'
   

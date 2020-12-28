@@ -13,12 +13,12 @@ static NSString *const kParentCoordinatorKey = @"kParentCoordinatorKey";
 
 @implementation UIViewController (LBCoordinator)
 
-- (LBBaseCoordinator *)lb_coordinator{
-    return objc_getAssociatedObject(self, &kParentCoordinatorKey);
+- (__kindof LBBaseCoordinator *)lb_coordinator{
+    return objc_getAssociatedObject(self, @selector(lb_coordinator));
 }
 
 - (void)setLb_coordinator:(LBBaseCoordinator *)lb_coordinator{
-    objc_setAssociatedObject(self, &kParentCoordinatorKey, lb_coordinator, OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, @selector(lb_coordinator), lb_coordinator, OBJC_ASSOCIATION_ASSIGN);
 }
 
 - (UIResponder *)coordinatingResponder{

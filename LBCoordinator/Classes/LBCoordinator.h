@@ -8,12 +8,12 @@
 #ifndef LBCoordinator_h
 #define LBCoordinator_h
 
-#import "LBCoordinating.h"
-#import "LBBaseCoordinator.h"
-#import "LBGenericCoordinator.h"
-#import "LBNavigationCoordinator.h"
+#import <LBCoordinator/LBCoordinating.h>
+#import <LBCoordinator/LBBaseCoordinator.h>
+#import <LBCoordinator/LBGenericCoordinator.h>
+#import <LBCoordinator/LBNavigationCoordinator.h>
 
-#import "UIResponder+LBCoordinating.h"
-#import "UIViewController+LBCoordinator.h"
+#import <LBCoordinator/UIResponder+LBCoordinating.h>
+#import <LBCoordinator/UIViewController+LBCoordinator.h>
 
 #endif /* LBCoordinator_h */

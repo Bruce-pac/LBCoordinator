@@ -18,22 +18,41 @@
 @implementation LBBaseCoordinator
 
 - (void)start{
-    NSAssert(NO, @"%@ not implementated '-(void)start'", [self class]);
+    [self startWithOptions:nil];
+}
+
+- (void)startWithOptions:(NSDictionary *)options {
+    NSAssert(NO, @"%@ not implementated '-(void)startWithOptions:'", [self class]);
+}
+
+- (void)stopWithCompletion:(void (^)(void))completion{
+    if (completion) {
+        completion();
+    }
+}
+
+- (void)activate{
+
 }
 
 - (void)addChildCoordinator:(id<LBCoordinating>)child{
+    NSAssert(child != self, ([NSString stringWithFormat:@"ChildCoordinator %@ must not be equal to parentCoordinator", child]));
     [self.childCoordinatorContainer setObject:child forKey:child.identifier];
     child.parentCoordinator = self;
 }
 
 - (void)startChildCoordinator:(id<LBCoordinating>)child{
     [self addChildCoordinator:child];
-    [child start];
+    [child startWithOptions:nil];
 }
 
 - (void)stopChildCoordinator:(id<LBCoordinating>)child{
     child.parentCoordinator = nil;
-    [self.childCoordinatorContainer removeObjectForKey:child.identifier];
+    __weak typeof(self) weakSelf = self;
+    [child stopWithCompletion:^{
+        __strong typeof(self) strongSelf = weakSelf;
+        [strongSelf.childCoordinatorContainer removeObjectForKey:child.identifier];
+    }];
 }
 
 - (NSArray<id<LBCoordinating>> *)childCoordinators{
@@ -44,6 +63,13 @@
     return (UIResponder *)self.parentCoordinator;
 }
 
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"identifier - %@ \n parentCoordinator - %@ \n childCoordinators - %@",
+            self.identifier,
+            self.parentCoordinator,
+            self.childCoordinators];
+}
 #pragma mark - Lazy load
 
 - (NSString *)identifier{

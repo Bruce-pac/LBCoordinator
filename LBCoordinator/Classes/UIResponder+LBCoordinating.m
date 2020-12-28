@@ -8,6 +8,9 @@
 
 #import "UIResponder+LBCoordinating.h"
 
+LBCoordinatorEventName const kCoordinatorReflectSelectorEvent = @"kCoordinatorReflectSelectorEvent";
+LBCoordinatorEventUserInfoKey const kCoordinatorReflectUserInfoKeyTarget = @"kCoordinatorReflectUserInfoKeyTarget";
+LBCoordinatorEventUserInfoKey const kCoordinatorReflectUserInfoKeySelector = @"kCoordinatorReflectUserInfoKeyTarget";
 
 @implementation UIResponder (LBCoordinating)
 - (UIResponder *)coordinatingResponder{
@@ -15,6 +18,10 @@
 }
 
 - (void)lb_coordinatingMessage:(LBCoordinatorEventName)event object:(id)object userInfo:(NSDictionary *)userInfo{
-    [self.coordinatingResponder lb_coordinatingMessage:event object:object userInfo:userInfo];
+    [self lb_coordinatingMessage:event object:object userInfo:userInfo asyncHandler:nil];
+}
+
+- (void)lb_coordinatingMessage:(LBCoordinatorEventName)event object:(id)object userInfo:(NSDictionary *)userInfo asyncHandler:(void (^)(id _Nullable))asyncHandler{
+    [self.coordinatingResponder lb_coordinatingMessage:event object:object userInfo:userInfo asyncHandler:asyncHandler];
 }
 @end

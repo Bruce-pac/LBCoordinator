@@ -13,7 +13,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (LBCoordinator)
-@property (nonatomic, weak) LBBaseCoordinator *lb_coordinator;
+@property (nonatomic, weak) __kindof LBBaseCoordinator *lb_coordinator;
 @end
 
 NS_ASSUME_NONNULL_END

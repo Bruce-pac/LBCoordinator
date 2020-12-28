@@ -6,7 +6,7 @@
 //  Copyright © 2019 Bruce. All rights reserved.
 //
 
-#import "LBBaseCoordinator.h"
+#import <LBCoordinator/LBBaseCoordinator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
